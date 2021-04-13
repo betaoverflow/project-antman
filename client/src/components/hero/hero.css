@@ -1,0 +1,22 @@
+.heroButton {
+  background: #bb000e !important;
+  margin-left: 15px !important;
+  white-space: nowrap !important;
+  padding: 7px 24px !important;
+  color: #fff !important;
+  font-size: 16px !important;
+  outline: none !important;
+  border: none !important;
+  cursor: pointer !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.heroButton:hover {
+  transition: all 0.2s ease-in-out !important;
+  background: #e1e6e7 !important;
+  color: #010606 !important;
+}
+

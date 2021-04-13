@@ -1,0 +1,16 @@
+.App{
+  overflow: hidden;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-width: 500px !important;
+  align-items: center;
+}
+
+@media screen and (max-width:768px) {
+    .card-container{
+      margin-left: 15%;
+    }
+}
